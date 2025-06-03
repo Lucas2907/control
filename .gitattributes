@@ -1,0 +1,6 @@
+# Usa LF como padrão pra tudo
+* text=auto eol=lf
+
+# Força .editorconfig e arquivos .css a usarem LF
+*.editorconfig text eol=lf
+*.css text eol=lf
