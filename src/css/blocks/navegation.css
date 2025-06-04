@@ -1,0 +1,27 @@
+.navegation {
+  width: 100%;
+  max-width: 1368px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.navegation__logo {
+  width: 162px;
+  height: 46px;
+  padding-bottom: 0.5rem;
+}
+
+.navegation__menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu__itens {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0;
+}
