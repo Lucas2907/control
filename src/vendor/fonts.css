@@ -17,7 +17,39 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url("../assets/fonts/InterDisplay-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Teachers";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Teachers-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Teachers";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Teachers-SemiBold.woff2") format("woff2");
 }
