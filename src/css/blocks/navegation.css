@@ -29,6 +29,17 @@
 }
 
 .menu__item {
-  color: #000;
+  color: #413e3e;
   text-decoration: none;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.menu__item:hover {
+  color: #47cc4c;
+  transform: scale(1.1);
+}
+
+.menu__item:active {
+  color: #1eaf23;
 }

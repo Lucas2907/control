@@ -28,6 +28,10 @@
   height: auto;
 }
 
+.header__image:hover {
+  transform: scaleX(-1) scale(1.1);
+}
+
 .header__button {
   margin-top: 4rem;
 }

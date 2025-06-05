@@ -16,6 +16,11 @@
 }
 
 .calculate__image {
+  padding: 2rem 0 ;
   width: 100%;
   max-width: 597px;
+}
+
+.calculate__image:hover {
+  transform: scale(1.1);
 }
