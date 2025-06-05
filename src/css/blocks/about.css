@@ -1,0 +1,28 @@
+.about {
+  width: 100%;
+  max-width: 1368px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__image {
+  width: 100%;
+  max-width: 585px;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about__title {
+  font-size: 3.43rem;
+}
+
+.about__description {
+  font-size: 1.62rem;
+  max-width: 444px;
+}
