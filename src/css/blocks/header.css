@@ -3,9 +3,7 @@
   max-width: 1368px;
   display: flex;
   justify-content: space-between;
-  padding: 2.93rem 0;
-  font-family: "Teachers", sans-serif;
-  border-top: 1px solid gray;
+  padding: 10rem 0;
 }
 
 .header__container {
@@ -18,40 +16,19 @@
 }
 
 .header__title {
-  margin: 0;
-  font-weight: 600;
+  max-width: 27.75rem;
   font-size: 3.43rem;
-  width: 27.75rem;
-  text-align: center;
 }
 
 .header__description {
-  margin: 0;
-  font-weight: 500;
-  font-size: 1.5rem;
-  width: 100%;
-  color: #4b4949;
-  text-align: center;
+  max-width: 31.03rem;
 }
-
-.header__button {
-  font-family: "Inter", sans-serif;
-  color: #ffff;
-  font-weight: 700;
-  font-size: 2.5rem;
-  width: 100%;
-  max-width: 451px;
-  height: 72px;
-  border-radius: 50px;
-  margin-top: 4rem ;
-  background-color: #47cc4c;
-
-  padding: 0;
-  border: none;
-}
-
 .header__image {
   transform: scaleX(-1);
   width: 50%;
   height: auto;
+}
+
+.header__button {
+  margin-top: 4rem;
 }

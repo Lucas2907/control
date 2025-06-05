@@ -1,5 +1,37 @@
 @import url(../../vendor/normalize.css);
 @import url(../../vendor/fonts.css);
-@import url(../../css/blocks/page.css);
+@import url(../blocks/page.css);
 @import url(../blocks/navegation.css);
 @import url(../blocks/header.css);
+@import url(../blocks/calculate.css);
+@import url(../blocks/main.css);
+
+.title {
+  margin: 0;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 100%;
+  color: #4b4949;
+  text-align: center;
+}
+
+.button {
+  font-family: "Inter", sans-serif;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  width: 100%;
+  max-width: 451px;
+  height: 72px;
+  border-radius: 50px;
+  background-color: #47cc4c;
+  padding: 0;
+  border: none;
+}
