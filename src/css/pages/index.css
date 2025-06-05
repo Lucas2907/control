@@ -35,4 +35,18 @@
   background-color: #47cc4c;
   padding: 0;
   border: none;
+  transition: transform 0.6s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #15a119;
+}
+
+.image {
+  transition: transform 0.6s ease;
 }
