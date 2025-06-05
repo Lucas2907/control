@@ -1,7 +1,8 @@
 .main {
   width: 100%;
   display: flex;
-  justify-content: center;
-  background-color: #fcfbfb82;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
   padding: 5rem 0;
 }
