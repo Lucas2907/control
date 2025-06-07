@@ -1,0 +1,8 @@
+.footer {
+  max-width: 1368px;
+}
+
+.footer__copyright {
+  color: #4b4949;
+  font-size: 1.25rem;
+}
